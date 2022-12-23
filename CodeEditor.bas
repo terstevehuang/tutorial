@@ -25,7 +25,7 @@ End Sub
 
 
 Public Sub ss()
-
+'update ss function
     Dim rng As Range
     For Each rng In Selection
         rng.Value = Replace(rng.Value, "Gpu", "Gfx")
